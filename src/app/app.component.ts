@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   email: string = '';
 
+  onSubmit(){
+    console.log(this.email);
+  }
+
   // constructor(){
   //   setInterval(() => {
   //     this.email += 'a';
